@@ -18,7 +18,7 @@ public class ModSkeleton : ModuleRules
 {
 	public ModSkeleton(TargetInfo Target)
 	{
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "UMG", "PakFile"});
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "UMG", "PakFile", "AssetRegistry"});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
